@@ -173,7 +173,19 @@ console.log(newStringSlice) =>The output will be "icingS"
 let string7 = "slicingStringExample";
 console.log(string7.slice(-6,-2)); => THe output will be xamp
 
-*/
-
-let string7 = "slicingStringExample";
 console.log(string7.slice(-1,-4)) => This will give the empty string because this is not the correct format for passing the index
+
+Printing the first character of the String  using the slice() method:
+
+console.log(string7.slice(0,1));
+
+printing the last character of the string using the slice() method:
+
+console.log(string7.slice(-1));
+
+******************************************************************************************************************************************************************************************************************************************************************************************************
+
+
+7: substring() :- This met(hod of the string is also like the slice method of the string. This method also return the part or section of the string in the form of new string without modifying the original string.
+But there are few differnce between slice() and substring() method and they are:-
+*/

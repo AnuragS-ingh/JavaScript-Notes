@@ -22,7 +22,7 @@
 // console.log(array1);
 // console.log(removedElement);
 
-// 3: Array.Unshift(Element):- This method of the array is used to add the specified element at the 0th index of the array that is why this method is considered less efficient in the context of time and the space as it take long time if the element of the array number is High..
+// 3: Array.Unshift(Element):- This method of the array is used to add the specified element at the 0th index of the array that is why this method is considered less efficient in the context of time and the space as it take long time if the element of the array number is High because it add the element at the 0th index so it shift all the element and this process is time taking...
 
 // let array3 = [1,2,5,4,8,6,9];
 // array3.unshift(45,12,18,14,15,17);
@@ -34,7 +34,7 @@
 // console.log(array3.concat(arrray5))
 
 
-// concat 
+//4: concat 
 
 let array1 =["Ram","Sita","Hari"];
 let array2 = [1,2,3,4];
@@ -60,22 +60,3 @@ console.log(spread_)
 
 
 
-function numberIdentifier (num){
-    switch(num){
-        case num%2==0 &&(num%num==0 && num%1==0 ):
-            console.log(`The number ${num} is even and prime`);
-        break;
-        case num%2!=0 &&(num%num==0 && num%1==0):
-            console.log(`The number ${num} is odd and prime`);
-        break;
-        case num%2==0 &&(num%num!=0 && num%1!=0):
-            console.log(`The number ${num} is even `);
-        break;
-        case num%2!=0 &&(num%num!=0 && num%1!=0):
-            console.log(`The number ${num} is odd`);
-        break
-    }
-}
-
-
-console.log(numberIdentifier(3))
